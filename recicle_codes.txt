@@ -1,0 +1,90 @@
+if(password != dblcheck){
+       userInterface.showMessage('Las contraseñas no coinciden','danger');
+         
+   }else{
+     userInterface.showMessage('contraseñas coinciden','success');
+   }
+
+
+   if(username === '' || password === '' || dblcheck === ''){
+       userInterface.showMessage('Complete todos los campos','warning')
+   };
+   if(password.length > 8){
+       userInterface.showMessage('Contraseña ha de tener minimo de 8 caracteres','info');
+   };
+
+   resetForm(){
+        document.getElementById('formulario').reset();
+    }
+             CASO DE QUE PASSWORDS NO COINCIDAN
+    echo"Revise sus datos..."."<br/>"."Username :"."\n"."$username"."<br/>"."Password :"."\n".
+    "$password"."<br/>"."Double check :"."\n"."$dblcheck"."<br/>";
+
+
+   
+
+var titulo = document.getElementById('titulo');
+titulo.addEventListener('mouseover',function(){
+    titulo.style.backgroundColor="#f1f2f6";
+});
+titulo.addEventListener('mouseout',function(){
+    titulo.style.backgroundColor="white";
+});
+
+
+
+
+    #titulo{
+    
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 265px;
+    
+    
+}
+
+#formulario{
+
+    border:1px solid blue;
+    
+}
+
+
+#contenedor{
+    
+    width: 500px;
+    margin:auto;
+    margin-top: 20px;
+    height:500px;
+    border:1px solid black
+    
+
+}
+
+#rights{
+    width: 300px;
+    margin:auto;
+    border:1px solid black
+}
+
+#alarma{
+    height: 45px;
+    margin-top: 10px;
+    border:1px solid black;
+    
+}
+
+#alar{
+    height: 45px;
+    margin-top: 10px;
+    border:1px solid black;
+    
+  
+}
+
+#rights{
+    border:1px solid black;
+    width: 263px;
+    margin:auto;
+}
+

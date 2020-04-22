@@ -1,0 +1,44 @@
+
+
+#titulo{
+    
+    width: 200px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+#contenedor{
+    
+    width:500px;
+    margin:auto;
+    margin-top: 20px;
+    height:450px;
+    
+}
+
+#formulario{
+    
+    height: 150px;
+}
+
+
+#inicio{
+    
+    margin:auto;
+    margin-top: 10px;
+}
+
+#rights{
+    
+    width: 300px;
+    margin:auto;
+    
+}
+
+#alarma{
+    height: 120px;
+    margin-top: 10px;
+    
+    margin-bottom: 10px;
+    
+}
